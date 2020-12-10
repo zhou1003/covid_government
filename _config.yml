@@ -6,37 +6,31 @@
 # --- Required options --- #
 
 # Name of website
-title: Life in bustling cities
+title: My Website
 
 # Your name to show in the footer
-author: Louise Placidet, Julien Rimok, Janet van der Graaf
-
-# --- Cover image --- #
-#cover-image: ["/assets/img/ny.jpg", "/assets/img/tokyo4.jpg"]
-
+author: Some Person
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
+  Megalopolises web: "megalopolises"
+  Resources !!!!:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/epfl_logo.png"
+avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: false
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 #title-img: /path/to/image
-
 
 
 # --- Footer social media links --- #
@@ -100,7 +94,6 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-
 navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
@@ -115,9 +108,9 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/tokyo1.jpg"
-#footer-img: "/assets/img/tokyo2.jpg"
-#page-img: "/assets/img/tokyo3.jpg"
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
