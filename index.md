@@ -57,6 +57,7 @@ Now let’s focus more on their daily routines: how do people move during the da
 Below are two interactive maps showing where people are distributed over these megalopolises during the day:
 
 _(add interactive maps with hour by hour evolution of all check-ins)!_
+{% include plots/NYC_hourly2.html %}
 
 In these two maps, we can clearly notice that there is an increase in density during the day.  (add more conclusions: people in tokyo are flowing in much later than in nyc, then they leave around XXX hour)
 
@@ -115,12 +116,61 @@ This figure really highlights the astounding amount of time Tokyoites spend at t
 
 Time of day | **New York** | **Tokyo**
 --- | --- | ---
-*__06-12__* | Office, Coffee, Gym | Train station, Subway, Convenience store
-*__12-18__* | Home, Office, Food, Gym | Train station, Subway, Restaurants
-*__18-00__* | Bar, Home, Gym | Train station, Subway, Bars, Restaurants
+*__06-12__* | Office, Coffee, Gym | Train station 🚉, Subway, Convenience store
+*__12-18__* | Home, Office, Food, Gym | Train station 🚉, Subway, Restaurants
+*__18-00__* | Bar 🕔😄🍻, Home, Gym 🏋️‍♀️| Train station 🚉, Subway, Bars, Restaurants
 *__00-06__* | Bar, Home | Train station, Bars, Convenience Store
 
-
+<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <table class="table table-borderless col-lg-8">
+        <thead>
+        <tr>
+          <th scope="col"  class="bg-dark-red text-white text-center">Time of the day</th>
+          <th scope="col"  class="bg-light-sand text-center">New York City</th>
+          <th scope="col"  class="bg-light-sand text-center">Tokyo</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="text-dark-red text-center"><h3><b>06-12</h3></td>
+          <td class="text-dark-red text-center"><h1><b>Office</h1>
+                                                <h2><b>Coffee</h2>
+                                                <h3><b>Gym</h3></td>
+          <td class="text-center"><h1><b>Train station</h1>
+                                <h2><b>Subway</h2>
+                                <h3><b>Convenience store</h3></td>
+        </tr>
+        <tr>
+          <td class="text-dark-red text-center"><h3><b>12-18</h3></td>
+          <td class="text-dark-red text-center"><h1><b>Home</h1>
+                                                <h2><b>Office</h2>
+                                                <h3><b>Food</h3></td>
+          <td class="text-center"><h1><b>Train station</h1>
+                                <h2><b>Subway</h2>
+                                <h3><b>Restaurants</h3></td>
+        </tr>
+        <tr>
+          <td class="text-dark-red text-center"><h3><b>18-00</h3></td>
+          <td class="text-dark-red text-center"><h1><b>Bar</h1>
+                                                <h2><b>Home</h2>
+                                                <h3><b>Gym</h3></td>
+          <td class="text-center"><h1><b>Train station</h1>
+                                <h2><b>Subway</h2>
+                                <h3><b>Bars</h3></td>
+        </tr>
+        <tr>
+          <td class="text-dark-red text-center"><h3><b>00-06</h3></td>
+          <td class="text-dark-red text-center"><h1><b>Bar</h1>
+                                                <h2><b>Home</h2>
+                                                <h3><b>Subway</h3></td>
+          <td class="text-center"><h1><b>Train station</h1>
+                                <h2><b>Bars</h2>
+                                <h3><b>Convenience store</h3></td>
+        </tr>
+        </tbody>
+      </table>
+</div>
+    
 ## Conclusion and Implication:
 
 To conclude, big cities share common traits which understandably represent appealing reasons to move. Seeing how densely populated Tokyo and New York City are, there is no doubt that meeting new individuals is effortless.  Moreover, there is a considerable diversity of things to do!  Will you travel and explore farther away from your home than if you lived in some rural city in the Midwest? Probably not, but there is plenty to do right next to you!

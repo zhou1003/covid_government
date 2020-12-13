@@ -14,7 +14,7 @@ author: To Infinity ADA Beyond
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Megalopolises web!!!: "megalopolises"
+  About us: "about us"
   Resources:
     - The dataset: "https://sites.google.com/site/yangdingqi/home/foursquare-dataset"
     - Previous research on mobility: "https://dl.acm.org/doi/10.1145/2020408.2020579"
