@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Life in bustling cities
+title: Life in Bustling Cities
 subtitle: How do people move in New York and Tokyo?
 cover-img: /assets/img/ny.jpg
 thumbnail-img: /assets/img/ny.jpg
@@ -41,6 +41,7 @@ Now that we have estimated where every user lives, let’s see how far from thei
 
 _(Figure showing the probability distribution according the distance from home in km)!!_
 ![distance_from_home](assets/img/distance_from_home.png)
+{% include plots/distance_to_home.html %}
 
 Surprisingly, individuals don’t travel that far! According to the plot above, users tend to stay within less than 15 km from their home and rarely wander off.  How far does 15 km look like on a Tokyo and NYC map?
 
