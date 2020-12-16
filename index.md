@@ -48,16 +48,21 @@ Surprisingly, individuals don’t travel that far! According to the plot above, 
 
 _(Add Tokyo map and NYC map with both a 15 km radius circle superimposed to show how far that distance can look like)!_
 
+<img src="assets/plots/nyc_heatmap.png" width="400">
+<img src="assets/plots/tky_heatmap.png" width="400">
+
 If people don’t travel far, what are their habits in this more local environment?
 
 ## What are the routines and habits of individuals living in megalopolises?
+
 
 Now let’s focus more on their daily routines: how do people move during the day and where are they located in NYC and Tokyo respectively?
 
 Below are two interactive maps showing where people are distributed over these megalopolises during the day:
 
 _(add interactive maps with hour by hour evolution of all check-ins)!_
-{% include plots/NYC_hourly2.html %}
+    
+{% include plots/TKY_categorical.html %}
 
 In these two maps, we can clearly notice that there is an increase in density during the day.  (add more conclusions: people in tokyo are flowing in much later than in nyc, then they leave around XXX hour)
 
