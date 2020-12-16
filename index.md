@@ -62,7 +62,7 @@ Below are two interactive maps showing where people are distributed over these m
 
 _(add interactive maps with hour by hour evolution of all check-ins)!_
     
-{% include plots/TKY_categorical.html %}
+
 
 In these two maps, we can clearly notice that there is an increase in density during the day.  (add more conclusions: people in tokyo are flowing in much later than in nyc, then they leave around XXX hour)
 
