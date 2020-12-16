@@ -118,7 +118,7 @@ We have categorized these venues into the following:
 * Home & Residential 🏠
 * Nightlife 🌃
 
-_(Comparing categorical venue types in both cities)!_
+<!---_(Comparing categorical venue types in both cities)!_-->
 <img src="assets/plots/comparing_venues.png" class="center"/>
 
 When looking at the distribution of venues according to the day time, similar trends appear between these two megalopolises.  For instance, when looking at the food related-category, we can clearly notice two spikes, around 12pm and around 7pm. It is the same case for Arts & Entertainment and Traveling. However, in terms of fitness, New Yorkers prefer working out before going to work. For shopping, Tokyoites tend to shop later in the evening, as the distribution is more skewed.
@@ -127,17 +127,17 @@ When looking at the distribution of venues according to the day time, similar tr
 
 To push this comparison even further, let’s look at the top venues for NYC and Tokyo respectively: 
 
-<!---_(comparing NYC’s top venues in both cities)!_-->
-<img src="assets/plots/comparing_venues_nyc.png" class="center"/>
-<!---_(comparing Tokyo’s top venues in both cities)!_-->
-<img src="assets/plots/comparing_venues_tky.png" class="center"/>
+| <img src="assets/plots/comparing_venues_nyc.png" class="center"/> |
+| - | 
+| <img src="assets/plots/comparing_venues_tky.png" class="center"/> |
 
 From the plots above, it seems that New Yorkers have activities that they prefer overwhelmingly more than Tokyo!  For instance, we can see that New Yorkers tend to go to gyms compared to Tokyo. Equally, most of the New Yorkers like to check-in sharply at 9 am in the morning. This also corresponds to when they get their coffee. Moreover, they spend more time in residential areas, whether it be their home (Home (private)) or their friend's homes (Neighborhood).
 
 As for Tokyo, the preferred venues including electronic stores, ramen/noodle houses and convenience stores dwarf the number of check-ins of New York for the same venues (NYC check-ins are almost flat in comparison). Equally, we notice the extent by which the check-ins related to the train station or the subway in Tokyo dominate those of New York.
-_(wordcloud here?)!_
-<img src="assets/plots/wordcloud_nyc.png" class="left"/>
-<img src="assets/plots/wordcloud_tky.png" class="right"/>
+<!---_(wordcloud here?)!_-->
+
+<img src="assets/plots/wordcloud_nyc.png" width="350" class="left"/>
+<img src="assets/plots/wordcloud_tky.png" width="350" class="right"/>
 
 
 -------------------------
@@ -169,7 +169,7 @@ To conclude, big cities share common traits which understandably represent appea
 
 Such a study and observations can have quite useful implications.  Knowing the user’s locations can definitely contribute to improving urban planning and migration patterns: where would it be useful to construct a new subway line? Would opening a restaurant in Brooklyn work better than opening it in the Bronx?  Such knowledge could also contribute greatly in advertising: when a gym is looking for new memberships, this will enable it to advertise in locations where a lot of people go work out or try to capitalize on a location that doesn’t have many competitors.
 
-Last but not least, understanding this human mobility is valuable information, especially considering the current Covid context.  Seeing human movement patterns can help identify regions where the risks are higher and where clusters tend to be most created.
+Last but not least, understanding this human mobility is valuable information, especially considering the current Covid 🦠 context.  Seeing human movement patterns can help identify regions where the risks are higher and where clusters tend to be most created.
 
 -------------
 
@@ -181,54 +181,3 @@ Last but not least, understanding this human mobility is valuable information, e
 
 
 
-
-<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-      <table class="table table-borderless col-lg-8">
-        <thead>
-        <tr>
-          <th scope="col"  class="bg-dark-red text-white text-center">Time of the day</th>
-          <th scope="col"  class="bg-light-sand text-center">New York City</th>
-          <th scope="col"  class="bg-light-sand text-center">Tokyo</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td class="text-dark-red text-center"><h3><b>06-12</h3></td>
-          <td class="text-dark-red text-center"><h1><b>Office</h1>
-                                                <h2><b>Coffee</h2>
-                                                <h3><b>Gym</h3></td>
-          <td class="text-center"><h1><b>Train station</h1>
-                                <h2><b>Subway</h2>
-                                <h3><b>Convenience store</h3></td>
-        </tr>
-        <tr>
-          <td class="text-dark-red text-center"><h3><b>12-18</h3></td>
-          <td class="text-dark-red text-center"><h1><b>Home</h1>
-                                                <h2><b>Office</h2>
-                                                <h3><b>Food</h3></td>
-          <td class="text-center"><h1><b>Train station</h1>
-                                <h2><b>Subway</h2>
-                                <h3><b>Restaurants</h3></td>
-        </tr>
-        <tr>
-          <td class="text-dark-red text-center"><h3><b>18-00</h3></td>
-          <td class="text-dark-red text-center"><h1><b>Bar</h1>
-                                                <h2><b>Home</h2>
-                                                <h3><b>Gym</h3></td>
-          <td class="text-center"><h1><b>Train station</h1>
-                                <h2><b>Subway</h2>
-                                <h3><b>Bars</h3></td>
-        </tr>
-        <tr>
-          <td class="text-dark-red text-center"><h3><b>00-06</h3></td>
-          <td class="text-dark-red text-center"><h1><b>Bar</h1>
-                                                <h2><b>Home</h2>
-                                                <h3><b>Subway</h3></td>
-          <td class="text-center"><h1><b>Train station</h1>
-                                <h2><b>Bars</h2>
-                                <h3><b>Convenience store</h3></td>
-        </tr>
-        </tbody>
-      </table>
-</div>
-    
