@@ -61,7 +61,7 @@ Now let’s focus more on their daily routines: how do people move during the da
 Below are two interactive maps showing where people are distributed over these megalopolises during the day:
 
 _(add interactive maps with hour by hour evolution of all check-ins)!_
-<iframe src="assets/plots/NYC_hourly3.html" width="100%" height="600px"></iframe>    
+<iframe src="assets/plots/NYC_hourly.html" width="100%" height="600px"></iframe>    
 
 
 In these two maps, we can clearly notice that there is an increase in density during the day.  (add more conclusions: people in tokyo are flowing in much later than in nyc, then they leave around XXX hour)
