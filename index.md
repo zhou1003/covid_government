@@ -117,6 +117,7 @@ We have categorized these venues into the following:
 * Travel & Transport 🚌
 * Home & Residential 🏠
 * Nightlife 🌃
+
 <!---_(Comparing categorical venue types in both cities)!_-->
 <img src="assets/plots/comparing_venues.png" class="center"/>
 
