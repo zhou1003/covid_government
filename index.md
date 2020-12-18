@@ -56,6 +56,7 @@ Surprisingly, individuals don’t travel that far! According to the plot above, 
 As you can see on both maps, a 15 km radius covers most of the area of both NYC and Tokyo. As a result, if you place an individual in the center of that circle and have them move like a New Yorker or Tokyoite, it will most likely stay within this circle! We can see that they spend most of their time wandering these areas!
 
 ------------------
+
 ## What are the routines and habits of individuals living in megalopolises?
 
 ### 1) Where do people go during the day?
@@ -74,8 +75,8 @@ In these two maps, we can clearly notice that there is an increase in density du
 As a result, the center of the respective cities seem to light up during the day, as more and more people are flowing in.  And at the end of the day, some areas are still active, whereas others seem to quiet down.
 
 However, it is important to note that given the important amount of individuals concentrated in these megalopolises, there are still people present in all regions of these respective cities. This could render one of the perks of living in a dense city: the cities are always buzzing with people!
-### 2) How active are people during the day?
 
+### 2) How active are people during the day?
 Another way to look at the user’s movement patterns, is to focus on the time of day that people report their activity on the Foursquare database during a 24 hour period.  In the histogram below, we quantify the activity of users based on the time of day in both cities:
 
 <!--- _(histogram showing check in hours)!_ -->
@@ -86,6 +87,7 @@ Globally, both cities show similar trends; a reduced activity during the night w
 According to this graph, we could always consider these cities as “cities that never sleep”, but the night activities still remain notably lower compared to the day!
 
 ---------
+
 ## What type of activities do New Yorkers and Tokyoites like to do respectively?
 
 What type of activities are most popular in these dense cities?  We ranked the different types of venues for both New York and Tokyo and here’s what appeared to be most popular:
@@ -140,6 +142,8 @@ As for Tokyo, the preferred venues including electronic stores, ramen/noodle hou
 |:------:|:------:|
 | <img src="assets/plots/wordcloud_nyc.png" width="350" class="left"/> | <img src="assets/plots/wordcloud_tky.png" width="350" class="right"/> |
 
+------------
+
 ## Where can you find the different types of venues?
 
 Imagine you wanted to open the next big brunch spot in New York, or create a new railway to ease traffic in Tokyo. Where would be the best place to place it?
@@ -166,7 +170,6 @@ For both cities, subways and train lines bring residents to the city center (Dow
 
 Going back to our hypothetical situation, it could be interesting to open a brunch restaurant in a highly residential suburb where you’d have no competition rather than pay expensive rents downtown. For instance, it could be really advantageous to have publicities in various train stations as Tokyoites spend a considerable amount of time there to help get the word out about your amazing new restaurant!
  
-
 -------------------------
 
 ## Is living in a city the same across countries?
@@ -182,7 +185,6 @@ Time of day | **New York** | **Tokyo**
 *__12-18__* | Home 🏠, Office 💼, Food 🍴, Gym 🏋️ | Train station 🚉, Subway 🚇, Restaurants 🍴
 *__18-00__* | Bar 🍻, Home 🏠, Gym 🏋️️| Train station 🚉, Subway 🚇, Bars 🍻, Restaurants 🍴
 *__00-06__* | Bar 🍻, Home 🏠 | Train station 🚉, Bars 🍻, Convenience Store 🏪
-
 
 -----------------------
 
