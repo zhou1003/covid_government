@@ -136,6 +136,7 @@ As for Tokyo, the preferred venues including electronic stores, ramen/noodle hou
 <!---_(wordcloud here?)!_-->
 
 | New York | Tokyo |
+|:------:|:------:|
 | <img src="assets/plots/wordcloud_nyc.png" width="350" class="left"/> | <img src="assets/plots/wordcloud_tky.png" width="350" class="right"/> |
 
 ## Where can you find the different types of venues?
@@ -145,129 +146,20 @@ Imagine you wanted to open the next big brunch spot in New York, or create a new
 Let’s look at the spatial distribution of the different categories of venues!
 
 New York:
-<div class="images">
-    <div class="row">
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_art.png" alt="">
-            <span>🎭</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_fitness.png" alt="">
-            <span>️🏋️</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_food.png" alt="">
-            <span>🍴</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_home.png" alt="">
-            <span>🎭</span>
-            <h4></h4>
-        </a>
-    </div>
-    <div class="row">
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_nightlife.png" alt="">
-            <span>🌃</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_shopping.png" alt="">
-            <span>🛍</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_travel.png" alt="">
-            <span>🚌</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/nyc_cat_work.png" alt="">
-            <span>📝</span>
-            <h4></h4>
-        </a>
-    </div>
-</div>
 
-Tokyo:
-<div class="images">
-    <div class="row">
-        <a href="" class="img">
-            <span>🎭</span>
-            <img src="assets/plots/tky_cat_art.png" alt="">
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <span>️🏋️</span>
-            <img src="assets/plots/tky_cat_fitness.png" alt="">
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/tky_cat_food.png" alt="">
-            <span>🍴</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/tky_cat_home.png" alt="">
-            <span>🎭</span>
-            <h4></h4>
-        </a>
-    </div>
-    <div class="row">
-        <a href="" class="img">
-            <img src="assets/plots/tky_cat_nightlife.png" alt="">
-            <span>🌃</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/tky_cat_shopping.png" alt="">
-            <span>🛍</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/tky_cat_travel.png" alt="">
-            <span>🚌</span>
-            <h4></h4>
-        </a>
-        <a href="" class="img">
-            <img src="assets/plots/tky_cat_work.png" alt="">
-            <span>📝</span>
-            <h4></h4>
-        </a>
-    </div>
-</div>
+| 🎭 | 🏋️ | 🍴 | 🏠 | 
+|:------:|:------:|:------:|:------:|
+| <img src="assets/plots/nyc_cat_art.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/nyc_cat_fitness.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/nyc_cat_food.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/nyc_cat_home.png" width="380px" height="200px" class="left"/> |
+| 🌃 | 🛍 | 🚌 | 📝 |
+| <img src="assets/plots/nyc_cat_nightlife.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/nyc_cat_shopping.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/nyc_cat_travel.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/nyc_cat_work.png" width="380px" height="200px" class="left"/> |
 
-<style>
-    div.images{
-        display: flex;
-        flex-flow: column;
-        span {
-              position: relative;
-              color: white;
-              font-size: 30px;
-              font-weight: bold;
-              left: 100px;
-              top: 0px;
-}
-    }
+Tokyo: 
 
-    div.images div.row {
-        display: flex;
-        flex-flow: row;
-    }
-
-    div.images img{
-        width: 200px;
-        height: 200px;
-    }
-
-}
-</style>
-
-
+| 🎭 | 🏋️ | 🍴 | 🏠 | 
+|:------:|:------:|:------:|:------:|
+| <img src="assets/plots/tky_cat_art.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/tky_cat_fitness.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/tky_cat_food.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/tky_cat_home.png" width="380px" height="200px" class="left"/> |
+| 🌃 | 🛍 | 🚌 | 📝 |
+| <img src="assets/plots/tky_cat_nightlife.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/tky_cat_shopping.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/tky_cat_travel.png" width="380px" height="200px" class="left"/> | <img src="assets/plots/tky_cat_work.png" width="380px" height="200px" class="left"/> |
 
 For both cities, subways and train lines bring residents to the city center (Downtown Manhattan and Central Tokyo). As a result, most venues are clustered in these areas. However, more day-to-day activities like shopping or going to restaurants are more evenly spread out. 
 
