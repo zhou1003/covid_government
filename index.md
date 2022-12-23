@@ -1,51 +1,55 @@
 ---
 layout: page
-title: Life in Bustling Cities
-subtitle: How do people move in New York and Tokyo?
-cover-img: /assets/img/ny.jpg
-thumbnail-img: /assets/img/ny.jpg
-share-img: /assets/img/ny.jpg
+title: Government enforcement and its impact during covid
+subtitle: 
+cover-img: /assets/img/cover.jpg
+thumbnail-img: /assets/img/cover.jpg
+share-img: /assets/img/cover.jpg
 use-site-title: true
 ---
 
-Human movement and mobility patterns have been studied on a global scale in the paper “Friendship and Mobility: User Movement in Location-Based Social Network.”  With the use of cell-phone location data as well as two online-based social networks (Gowalla and Brightkite), the authors revealed that human movement can be best summarized as a combination of local repetitive movements and random jumps that highly correlate with their social networks.
-Here we’ll be diving into the complex phenomenon of human movement, but in a much more specific context: that of megalopolises!  Indeed, let's take a look at the effect of human mobility in much more densely populated areas, namely New York City and Tokyo!
+
+
+The COVID-19 pandemic has had significant impacts on global health systems, economies, and societies. Governments around the world have implemented a range of measures to try to slow the spread of the virus, including physical distancing, mask-wearing, testing and tracing, and travel restrictions. Here, we will be diving into the complex phenomenon of human movement, covid spread, resources and infrastructure available to support enforcement, and the legal and political context in which the enforcement is taking place, namely 11 countries we selected.
 
 
 
 ### The Data Used:
-<img src="assets/img/logo_foursquare.png" alt="foursquare_logo" width="210" style="float:right"/>
-The data we acquired comes from the social media platform “Foursquare”.  This location-based social network provides us with the location and time of anonymous users living in New York City and Tokyo respectively between April, 2012 and February, 2013.
+<img src="assets/img/database.png" alt="foursquare_logo" width="210" style="float:right"/>
 
+The data we acquired comes from GPS activities provided by Apple and Google. The former focuses on geographical mobility shift while the latter focuses on transportation methods change. Also, we add complementary data of demographics, public infrastructure so as to analyse the latent indicators that contribute to the effect of government enforcement during covid.
 
 
 ### Goal:
 
-Many people move to attractive cities like New York City or Tokyo, looking for an out of habit experience.  But what is actually attractive about such big cities?  The clichés insist that such cities are always buzzing with life, a never ending diversity of activities, daily adventures and meeting new people every day.  Let’s find out if this is true!
+Different countries take various measures fighting the pandemic and follow a different timeline. How effective they are aginast covid and How they have altered people's daily activities?
 
 Here are some interesting questions which we’ll dive into:
-* Where do city-lovers live?  Are they all clustered in the same place?
-* How far do people travel from their home?  Are they really discovering new places and being adventurous as they claim to be?
+* How fast do governments in different countries respond to the new domestic cases?
+* How effective are governments' enforcement on defeating covid? Or say how to measure the performance of covid-fighting measures delivered by governments?
 * What are these user’s routines? Do New Yorkers and Tokyoites cluster in specific parts of the city during the day?  Are these cities constantly alive and buzzing as they stereotypically seem to be?
 * What activities are done in such megalopolises? How much diversity is there in the activities done?
 
 -----------------
 
-## Where do city-lovers live? And are they all clustered in the same place?
+## How fast do governments in different countries respond to the new domestic cases?
 
-After associating home coordinates to each user, according to where they spend most of their time, let’s take a look at where these users live!  Can we identify residential areas?
 
-<!--- _(heatmap of user’s homes in both Tokyo and New York city)!_ -->
-New York:
-<iframe src="assets/plots/nyc_heatmap.html" width="100%" height="600px"></iframe>
-Tokyo:
-<iframe src="assets/plots/tky_heatmap.html" width="100%" height="600px"></iframe>
+After extracting dates of first case and school close date, we generate a timeline of government enforcement speed during covid. Let's take a look at how fast they are among 11 countries we dive to investigate? Can we identify certain patterns?
 
-At first glance, it seems like there are no specific residential areas: the home distribution is quite uniform over both cities.  Indeed, given the high density of population, it would be quite hard to condense users in a single area!
+<img src="assets/img/response.png" alt="foursquare_logo" width=auto  />
+
+At first glance, it seems like the earlier the first case emerges, the longer the government takes to suppress it except countries including South Korea, Sweden and Norway. This also means that compared with the date of first case, start date of government intervention varies less. This is quite intuitive given that the coordination between different governments is faster compared with the spread of the virus. For example, Serbia and Finland closed schools even before there is a case under the fact these governments stay informed of the consequences and potential damages the virus could bring by international information sharing system and collaboration.
 
 ----------------
 
-## How far do people travel from their home?  Are they really discovering new places and being adventurous as they claim to be?
+## How effective are governments' enforcement on defeating covid? Or say how to measure the performance of covid-fighting measures delivered by governments?
+###Method 1: MCA
+Multi-criteria analysis (MCA) is a decision-making tool that allows individuals or organisations to evaluate and compare options based on multiple, often conflicting criteria.
+
+
+
+How far do people travel from their home?  Are they really discovering new places and being adventurous as they claim to be?
 
 Now that we have estimated where every user lives, let’s see how far from their home they like to explore! Do they wander far off and discover new areas or do they restrict themselves to only their neighborhood?
 

@@ -6,17 +6,18 @@
 # --- Required options --- #
 
 # Name of website
-title: Megalopolises
+title: Government enforcement and its impact during covid
 
 # Your name to show in the footer
-author: To Infinity ADA Beyond
+author: MATH
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   Resources:
-    - The dataset: "https://sites.google.com/site/yangdingqi/home/foursquare-dataset"
-    - Previous research on mobility: "https://dl.acm.org/doi/10.1145/2020408.2020579"
+    - The dataset: "https://github.com/epfl-dlab/wiki_pageviews_covid"
+    - The dataset: "https://ourworldindata.org/covid-cases"
+    - Previous research on mobility: "https://arxiv.org/pdf/2005.08505.pdf"
 
 
 # --- Logo --- #
@@ -38,7 +39,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "janet.vandergraafmas@epfl.ch, louise.placidet@epfl.ch, julien-yoann.rimok@epfl.ch"
+  email: "suying.zhou@epfl.ch, tian.tian@epfl.ch, haohong.wang@epfl.ch,mariia.eremina@epfl.ch"
 #  facebook: deanattali
 #  github: daattali
 #  twitter: daattali
