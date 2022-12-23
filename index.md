@@ -16,7 +16,7 @@ The COVID-19 pandemic has had significant impacts on global health systems, econ
 
 ### The Data Used:
 
-<img src="assets/plots/database.png" alt="database" width="210" style="float:right"/>
+<img src="assets/plots/database.PNG" alt="database" width="210" style="float:right"/>
 <!-- ![](assets/img/database.png) -->
 
 <!-- <iframe src="assets/img/database.png" width="100%" height="600px"></iframe> -->
@@ -30,9 +30,9 @@ Different countries take various measures fighting the pandemic and follow a dif
 
 Here are some interesting questions which we’ll dive into:
 * How fast do governments in different countries respond to the new domestic cases?
+* How has people's lifestype changed? Specifically, how has people's mobility changed during covid?
 * How effective are governments' enforcement on defeating covid? Or say how to measure the performance of covid-fighting measures delivered by governments?
-* What are these user’s routines? Do New Yorkers and Tokyoites cluster in specific parts of the city during the day?  Are these cities constantly alive and buzzing as they stereotypically seem to be?
-* What activities are done in such megalopolises? How much diversity is there in the activities done?
+
 
 -----------------
 
@@ -40,10 +40,16 @@ Here are some interesting questions which we’ll dive into:
 
 After extracting dates of first case and school close date, we generate a timeline of government enforcement speed during covid. Let's take a look at how fast they are among 11 countries we dive to investigate? Can we identify certain patterns?
 
-<img src="assets/plots/response.png" alt="response" width='auto'/>
+<img src="assets/plots/response.PNG" alt="response" width='auto'/>
 <!-- ![](assets/img/response.png) -->
 
 At first glance, it seems like the earlier the first case emerges, the longer the government takes to suppress it except countries including South Korea, Sweden and Norway. This also means that compared with the date of first case, start date of government intervention varies less. This is quite intuitive given that the coordination between different governments is faster compared with the spread of the virus. For example, Serbia and Finland closed schools even before there is a case under the fact these governments stay informed of the consequences and potential damages the virus could bring by international information sharing system and collaboration.
+
+----------------
+
+## How has people's lifestype changed? Specifically, how has people's mobility changed during covid?
+
+<img src="assets/plots/mobility.PNG" alt="response" width='auto'/>
 
 ----------------
 
@@ -53,17 +59,43 @@ At first glance, it seems like the earlier the first case emerges, the longer th
 
 Multi-criteria analysis (MCA) is a decision-making tool that allows individuals or organisations to evaluate and compare options based on multiple, often conflicting criteria.
 
+<img src="assets/plots/domain.PNG" alt="response" width='auto'/>
+
+In general, we consider three domains to represent three dimensions of influences of governments’ covid-related measures. The first one is covid infection statistics which is the most straight-forward one such as new cases and death cases. The second domain is how people’s lifestyle is affected in which we demonstrate through people’s mobility. The last one is government’s enforcement during covid with regard to how the measures are implemented. Under each domain, criteria are selected based on available dataset. The structure of the domain and criteria is shown below. 
+
+#### Weight Generation
+
+Hierarchy weights are used. Firstly give each domain a weight by the importance level. Covid and Outdoor activity, which directly influence people's life, have the biggest importance level, in which weight = 4. Policy, which does not influence people’s life directly, has a weaker weight which equals to 2.  Secondly, for criteria in each domain, average weights are given. The pie chart shows the weight proportion.
+
+<img src="assets/plots/weight.PNG" alt="response" width='auto'/>
+
+#### Normalised value calculation
+
+Criteria values for each country are calculated based on ‘Covid database’, ‘Intervention’, ‘Global mobility’ and ‘Apple mobility’. The time period is chosen from the date with the first case to 3 months later, because 3 months is the time period covering the most data for every criteria.
+
+For criteria in ‘Outdoor activities’ and covid case in ‘Covid’, the mean values are calculated. Because the death case is cumulative data, so the last-day value during the time period will be chosen.
+
+Because of different units for each data, data normalisation is needed. Standardisation is used in our case because the result shows the location of each value in the criteria distribution. It is worth noting that our goal is to get a series of criteria where the larger the value of the data, the better we think the performance. So for those criteria, Covid case, Death case and response speed, we will replace the calculation with their opposites.
+
+<img src="assets/plots/normalised.PNG" alt="response" width='auto'/>
+
+#### Weighted aggregation
+
+The standardised criteria values should be weighted and added up by country. The aggregation result is the overall performance. Conguaduation France  !!! which shows the best performance at the beginning of the pandemic.
+
+<img src="assets/plots/totalperformance.PNG" alt="response" width='auto'/>
+
+#### Analysis
+
+When comparing the overall ranking and the ranking for every criteria, it shows change in different criteria for every country. In 2020, the beginning year of COVID, the control level of COVID could represent the government performance which the people think. So we could assume COVID ranking as the government ranking based on the opinion in 2020. When we compare the ranking based on the opinion in 2020 with the ranking from 2022, the overall ranking in the following table, there are some changes. 
+
+<img src="assets/plots/table.PNG" alt="response" width='auto'/>
+
+Based on the opinion in 2020, Norway has the worst performance, while based on the opinion in 2022, Italy has the worst performance. So the country that was considered the best performer during the epidemic, when in the long run, does not mean he had the best performance.
 
 
-How far do people travel from their home?  Are they really discovering new places and being adventurous as they claim to be?
+<img src="assets/plots/ranking.PNG" alt="response" width='auto'/>
 
-Now that we have estimated where every user lives, let’s see how far from their home they like to explore! Do they wander far off and discover new areas or do they restrict themselves to only their neighborhood?
-
-<!---_(Figure showing the probability distribution according the distance from home in km)!_ -->
-{% include plots/distance_to_home.html %}
-
-Surprisingly, individuals don’t travel that far! According to the plot above, users tend to stay within less than 15 km from their home and rarely wander off.  How far does 15 km look like on a Tokyo and NYC map?
-As you can see on both maps, a 15 km radius covers most of the area of both NYC and Tokyo. As a result, if you place an individual in the center of that circle and have them move like a New Yorker or Tokyoite, it will most likely stay within this circle! We can see that they spend most of their time wandering these areas!
 
 ------------------
 
