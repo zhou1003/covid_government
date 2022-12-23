@@ -15,7 +15,7 @@ The COVID-19 pandemic has had significant impacts on global health systems, econ
 
 
 ### The Data Used:
-<img src="assets/img/database.png" alt="foursquare_logo" width="210" style="float:right"/>
+<img src="assets/img/database.png" alt="database" width="210" style="float:right"/>
 
 The data we acquired comes from GPS activities provided by Apple and Google. The former focuses on geographical mobility shift while the latter focuses on transportation methods change. Also, we add complementary data of demographics, public infrastructure so as to analyse the latent indicators that contribute to the effect of government enforcement during covid.
 
@@ -34,10 +34,9 @@ Here are some interesting questions which we’ll dive into:
 
 ## How fast do governments in different countries respond to the new domestic cases?
 
-
 After extracting dates of first case and school close date, we generate a timeline of government enforcement speed during covid. Let's take a look at how fast they are among 11 countries we dive to investigate? Can we identify certain patterns?
 
-<img src="assets/img/response.png" alt="foursquare_logo" width=auto  />
+<img src="assets/img/response.png" alt="response" width=auto  />
 
 At first glance, it seems like the earlier the first case emerges, the longer the government takes to suppress it except countries including South Korea, Sweden and Norway. This also means that compared with the date of first case, start date of government intervention varies less. This is quite intuitive given that the coordination between different governments is faster compared with the spread of the virus. For example, Serbia and Finland closed schools even before there is a case under the fact these governments stay informed of the consequences and potential damages the virus could bring by international information sharing system and collaboration.
 
