@@ -30,7 +30,7 @@ Different countries take various measures fighting the pandemic and follow a dif
 
 Here are some interesting questions which we’ll dive into:
 * How fast do governments in different countries respond to the new domestic cases?
-* How has people's lifestype changed? Specifically, how has people's mobility changed during covid?
+* How has people's lifestyle changed? Specifically, how has people's mobility changed during covid?
 * How effective are governments' enforcement on defeating covid? Or say how to measure the performance of covid-fighting measures delivered by governments?
 
 
@@ -47,9 +47,12 @@ At first glance, it seems like the earlier the first case emerges, the longer th
 
 ----------------
 
-## How has people's lifestype changed? Specifically, how has people's mobility changed during covid?
+## How has people's lifestyle changed? Specifically, how has people's mobility changed during covid?
 
 <img src="assets/plots/mobility.PNG" alt="response" width='auto'/>
+
+
+Our common sense suggests that the less outdoor activity there is, the less flu infection there will be. The graph below shows that this pattern does apply within each country. However, when we compare different countries, they behave differently. Italy, for example, has the strongest government control over outdoor activities, yet it shows a much higher prevalence of COVID than other countries. Its performance in both areas is unsatisfactory. Japan, on the other hand, is the opposite. In order to evaluate the government's performance more comprehensively and clearly, an evaluation methodology that considers all aspects is necessary. Who is the best? Please see below.
 
 ----------------
 
