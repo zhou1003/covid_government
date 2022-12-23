@@ -16,7 +16,7 @@ The COVID-19 pandemic has had significant impacts on global health systems, econ
 
 ### The Data Used:
 
-<img src="assets/img/database.png" alt="database" width="210" style="float:right"/>
+<img src="assets/plots/database.png" alt="database" width="210" style="float:right"/>
 <!-- ![](assets/img/database.png) -->
 
 <!-- <iframe src="assets/img/database.png" width="100%" height="600px"></iframe> -->
@@ -40,7 +40,7 @@ Here are some interesting questions which we’ll dive into:
 
 After extracting dates of first case and school close date, we generate a timeline of government enforcement speed during covid. Let's take a look at how fast they are among 11 countries we dive to investigate? Can we identify certain patterns?
 
-<img src="assets/img/response.png" alt="response" width='auto'/>
+<img src="assets/plots/response.png" alt="response" width='auto'/>
 <!-- ![](assets/img/response.png) -->
 
 At first glance, it seems like the earlier the first case emerges, the longer the government takes to suppress it except countries including South Korea, Sweden and Norway. This also means that compared with the date of first case, start date of government intervention varies less. This is quite intuitive given that the coordination between different governments is faster compared with the spread of the virus. For example, Serbia and Finland closed schools even before there is a case under the fact these governments stay informed of the consequences and potential damages the virus could bring by international information sharing system and collaboration.
