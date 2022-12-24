@@ -16,7 +16,6 @@ The COVID-19 pandemic has had significant impacts on global health systems, econ
 
 ### The Data Used:
 
-<img src="assets/plots/database.png" alt="database" width="210" style="float:right"/>
 <!-- ![](assets/img/database.png) -->
 
 <!-- <iframe src="assets/img/database.png" width="100%" height="600px"></iframe> -->
@@ -37,8 +36,7 @@ Here are some interesting questions which we’ll dive into:
 * How fast do governments in different countries respond to the new domestic cases?
 * How has people's lifestype changed in terms of mobility?
 * Who was the most satisfactory government in the beginning of the COVID?
-* Which indicator could better represent the performance of the government in a pandemic? Is it a covid case or a composite indicator including Covid case and mobility data?
-* When the next pandemic arrives, can we predict how satisfied people are with their quality of life based on real-time data on new cases and mobility data?
+
 
 
 -----------------
@@ -47,7 +45,7 @@ Here are some interesting questions which we’ll dive into:
 
 After extracting dates of first case and school close date, we generate a timeline of government enforcement speed during covid. Let's take a look at how fast they are among 11 countries we dive to investigate? Can we identify certain patterns?
 
-<img src="assets/plots/response.png" alt="response" width='auto'/>
+<img src="assets/plots/response.PNG" alt="response" width='auto'/>
 <!-- ![](assets/img/response.png) -->
 
 At first glance, it seems like the earlier the first case emerges, the longer the government takes to suppress it except countries including South Korea, Sweden and Norway. This also means that compared with the date of first case, start date of government intervention varies less. This is quite intuitive given that the coordination between different governments is faster compared with the spread of the virus. For example, Serbia and Finland closed schools even before there is a case under the fact these governments stay informed of the consequences and potential damages the virus could bring by international information sharing system and collaboration.
@@ -58,6 +56,11 @@ At first glance, it seems like the earlier the first case emerges, the longer th
 
 
 <img src="assets/plots/mobility_analysis.PNG" alt="response" width='auto'/>
+
+From both google and apple mobility data of European countries, we could observe an obvious sharp decrease, in apple dataset for all types of transportation: driving, walking and transit, in google dataset for all kinds of activity except for ‘residentials’. This may indicate a strict lockdown policy, which corresponds to the information in intervention data.
+
+For google mobility data, we can observe that different activities were affected to various extents and showed different tendencies. European countries (Serbia, Finland, Denmark, Germany, Netherlands, Sweden, Italy, Norway, France) share a similar rule that residential area mobility increases slightly while other activity area mobilities drop drastically, among which workplace- and transportation-related mobility are most affected and grocery-and-pharmacy least. These two mobility values remain stable but lower compared with data before pandemic, indicating a more profound impact.
+
 
 <img src="assets/plots/comparison.PNG" alt="response" width='auto'/>
 
@@ -75,7 +78,7 @@ Based on the scatter plot of the relationship between new COVID cases and change
 ----------------
 
 
-### Method: MCA
+### Method: Multi-criteria analysis
 
 Multi-criteria analysis (MCA) is a decision-making tool that allows individuals or organisations to evaluate and compare options based on multiple, often conflicting criteria.
 
@@ -105,7 +108,7 @@ The standardised criteria values should be weighted and added up by country. The
 
 <img src="assets/plots/totalperformance.PNG" alt="response" width='auto'/>
 
-## Which indicator could better represent the performance of the government in a pandemic? Is it a covid case or a composite indicator including Covid case and mobility data?
+#### Analysis
 
 When comparing the overall ranking and the ranking for every criteria, it shows change in different criteria for every country. In 2020, the beginning year of COVID, the control level of COVID could represent the government performance which the people think. So we could assume COVID ranking as the government ranking based on the opinion in 2020. When we compare the ranking based on the opinion in 2020 with the ranking from 2022, the overall ranking in the following table, there are some changes. 
 
@@ -118,11 +121,15 @@ Based on the opinion in 2020, Norway has the worst performance, while based on t
 
 <img src="assets/plots/performance_score.png" alt="response" width='auto'/>
 
+The overall score of government performance from MCA and the quality of life shows a positive correlation. That means, the trend of ranking from MCA is reliable. However, the correlation coefficient is not high and is easily affected by extreme values because of the insufficient sample size in both datasets.
+
 
 ------------------
 
 
-## Conclusion and Implication:
+## Conclusion
+
+
 
 
 -------------
