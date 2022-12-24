@@ -129,7 +129,7 @@ The overall score of government performance from MCA and the quality of life sho
 
 ## Conclusion
 
-
+In this project, we analysed the characteristics of mobility during a pandemic and analysed government performance using MCA. Finally, the relationship between government performance and quality of life was compared to support the operationalization of our simulation approach. The trend of the ranking results is consistent with our prior hypothesis, but the accuracy needs to be improved. In the milestone 2, we mentioned using machine learning to predict government performance in pandemic-like emergencies, and now only the model has been built because of insufficient data samples to make corrections to the accuracy of the model. Therefore, a larger volume of data needs to be acquired and augmented for future research, so that the rankings can gain greater reliability.
 
 
 -------------
