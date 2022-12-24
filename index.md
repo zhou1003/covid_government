@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Government enforcement and its impact during covid
+title: Government performance and its impact during covid
 subtitle: 
 cover-img: /assets/img/cover.jpg
 thumbnail-img: /assets/img/cover.jpg
@@ -112,7 +112,6 @@ The standardised criteria values should be weighted and added up by country. The
 
 When comparing the overall ranking and the ranking for every criteria, it shows change in different criteria for every country. In 2020, the beginning year of COVID, the control level of COVID could represent the government performance which the people think. So we could assume COVID ranking as the government ranking based on the opinion in 2020. When we compare the ranking based on the opinion in 2020 with the ranking from 2022, the overall ranking in the following table, there are some changes. 
 
-<img src="assets/plots/table.PNG" alt="response" width='auto'/>
 
 Based on the opinion in 2020, Norway has the worst performance, while based on the opinion in 2022, Italy has the worst performance. So the country that was considered the best performer during the epidemic, when in the long run, does not mean he had the best performance.
 
